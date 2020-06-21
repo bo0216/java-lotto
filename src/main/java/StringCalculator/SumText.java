@@ -1,3 +1,5 @@
+package StringCalculator;
+
 public class SumText {
     private int sum = 0;
     private String[] text;

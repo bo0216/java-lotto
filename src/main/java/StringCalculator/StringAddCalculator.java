@@ -1,3 +1,5 @@
+package StringCalculator;
+
 public class StringAddCalculator {
     public static int splitAndSum(String text) {
         if (InputText.checkNullOrEmptyText(text)) {
