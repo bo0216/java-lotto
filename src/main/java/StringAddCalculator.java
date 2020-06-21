@@ -3,6 +3,6 @@ public class StringAddCalculator {
         if (InputText.checkNullOrEmptyText(text)) {
             return 0;
         }
-        return new SumText(Operator.matchDelimiter(text)).sum();
+        return new TextTotal(Operator.matchDelimiter(text)).sum();
     }
 }

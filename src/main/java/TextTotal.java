@@ -1,8 +1,8 @@
-public class SumText {
+public class TextTotal {
     private int sum = 0;
     private String[] text;
 
-    public SumText(String[] text) {
+    public TextTotal(String[] text) {
         this.text = text;
     }
 
