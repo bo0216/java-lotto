@@ -15,7 +15,5 @@ public class LottoGame {
             LottoNumbers lottoNumbers = new LottoNumbers();
             ResultView.printLottoNumbers(lottoNumbers.makeLottoNumbers());
         }
-
-        InputView.inputWinningNumber();
     }
 }

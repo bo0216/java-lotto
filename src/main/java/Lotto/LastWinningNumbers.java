@@ -2,7 +2,7 @@ package Lotto;
 
 public class LastWinningNumbers {
     private static final String DELIMITER = ",";
-    private int[] winningNumbers = new int[6];
+    private static int[] winningNumbers = new int[6];
 
     public LastWinningNumbers(String input) {
         winningNumbers = makeWinningNumbers(input);

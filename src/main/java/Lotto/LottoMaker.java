@@ -6,6 +6,9 @@ public class LottoMaker {
     private int LottoCount;
 
     public LottoMaker(int purchaseAmount) {
+        if (purchaseAmount < 1000) {
+            this.LottoCount = 0;
+        }
         this.LottoCount = makeLottoCount(purchaseAmount);
     }
 
