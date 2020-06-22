@@ -15,4 +15,8 @@ public class LastWinningNumbers {
         }
         return winningNumbers;
     }
+
+    public int[] getWinningNumbers() {
+        return winningNumbers;
+    }
 }
