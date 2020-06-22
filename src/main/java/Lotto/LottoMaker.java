@@ -1,8 +1,9 @@
 package Lotto;
 
 public class LottoMaker {
-    private int LottoCount;
     private final static int LottoPrice = 1000;
+
+    private int LottoCount;
 
     public LottoMaker(int purchaseAmount) {
         this.LottoCount = makeLottoCount(purchaseAmount);
