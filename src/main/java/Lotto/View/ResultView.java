@@ -7,10 +7,10 @@ public class ResultView {
 
     public static void printLottoNumbers(int[] lottoNumbers) {
         System.out.print("[");
-        for (int i = 0; i < lottoNumbers.length; i++) {
+        for (int i = 0; i < lottoNumbers.length - 1; i++) {
             System.out.print(lottoNumbers[i] + ", ");
         }
-        System.out.print("]");
+        System.out.print(lottoNumbers[lottoNumbers.length - 1] + "]");
         System.out.println();
     }
 }
